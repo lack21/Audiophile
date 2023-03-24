@@ -8,7 +8,7 @@ function Headphones() {
       <section className="collection">
         <div className="item">
           <img
-            src="../src/images/shared/image-xx99-mark-two-headphones.jpg"
+            src="../..//images/shared/image-xx99-mark-two-headphones.jpg"
             alt="image-xx99-mark-two-headphones"
           />
           <div className="context">
@@ -30,7 +30,7 @@ function Headphones() {
         </div>
         <div className="item">
           <img
-            src="../src/images/shared/image-xx99-mark-one-headphones.jpg"
+            src="../..//images/shared/image-xx99-mark-one-headphones.jpg"
             alt="image-xx99-mark-one-headphones"
           />
           <div className="context">
@@ -51,7 +51,7 @@ function Headphones() {
         </div>
         <div className="item">
           <img
-            src="../src/images/shared/image-xx59-headphones.jpg"
+            src="../..//images/shared/image-xx59-headphones.jpg"
             alt="image-xx59-headphones"
           />
           <div className="context">
@@ -75,7 +75,7 @@ function Headphones() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="src/images/shared/image-headphones.png"
+            src="../..//images/shared/image-headphones.png"
             alt="image-headphones"
             className="choice-img"
           />
@@ -83,14 +83,14 @@ function Headphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="src/images/shared/image-speakers.png"
+            src="../..//images/shared/image-speakers.png"
             alt="image-speakers"
             className="choice-img"
           />
@@ -98,14 +98,14 @@ function Headphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="src/images/shared/image-earphones.png"
+            src="../..//images/shared/image-earphones.png"
             alt="image-earphones"
             className="choice-img"
           />
@@ -113,7 +113,7 @@ function Headphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>

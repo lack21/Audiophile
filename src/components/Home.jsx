@@ -25,7 +25,7 @@ function Home() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="src/images/shared/image-headphones.png"
+            src="../../images/shared/image-headphones.png"
             alt="image-headphones"
             className="choice-img"
           />
@@ -33,14 +33,14 @@ function Home() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="src/images/shared/image-speakers.png"
+            src="../..//images/shared/image-speakers.png"
             alt="image-speakers"
             className="choice-img"
           />
@@ -48,14 +48,14 @@ function Home() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="src/images/shared/image-earphones.png"
+            src="../..//images/shared/image-earphones.png"
             alt="image-earphones"
             className="choice-img"
           />
@@ -63,7 +63,7 @@ function Home() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
@@ -73,7 +73,7 @@ function Home() {
       <section className="banner">
         <div className="top-banner">
           <img
-            src="src/images/home/image-speaker-zx9.png"
+            src="../..//images/home/image-speaker-zx9.png"
             alt="image"
             className="top-banner-img"
           />

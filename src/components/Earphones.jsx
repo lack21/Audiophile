@@ -8,7 +8,7 @@ function Earphones() {
       <section className="collection">
         <div className="item">
           <img
-            src="../src/images/category-earphones/image-yx1-earphones.jpg"
+            src="../..//images/category-earphones/image-yx1-earphones.jpg"
             alt="image-yx1-earphones"
           />
           <div className="context">
@@ -34,7 +34,7 @@ function Earphones() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="src/images/shared/image-headphones.png"
+            src="../..//images/shared/image-headphones.png"
             alt="image-headphones"
             className="choice-img"
           />
@@ -42,14 +42,14 @@ function Earphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="src/images/shared/image-speakers.png"
+            src="../..//images/shared/image-speakers.png"
             alt="image-speakers"
             className="choice-img"
           />
@@ -57,14 +57,14 @@ function Earphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="src/images/shared/image-earphones.png"
+            src="../..//images/shared/image-earphones.png"
             alt="image-earphones"
             className="choice-img"
           />
@@ -72,7 +72,7 @@ function Earphones() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="src/images/shared/icon-arrow-right.svg"
+              src="../..//images/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>

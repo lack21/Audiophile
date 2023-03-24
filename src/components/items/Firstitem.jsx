@@ -34,7 +34,7 @@ function Firstitem() {
       <section className="collection">
         <div className="item">
           <img
-            src="../src/images/shared/image-xx99-mark-two-headphones.jpg"
+            src="../../../images/shared/image-xx99-mark-two-headphones.jpg"
             alt="image-xx99-mark-two-headphones"
           />
           <div className="context">
@@ -114,16 +114,16 @@ function Firstitem() {
         <div className="gallery">
           <div className="left-side">
             <img
-              src="../src/images/product-xx99-mark-two-headphones/image-gallery-1.jpg"
+              src="../../../images/product-xx99-mark-two-headphones/image-gallery-1.jpg"
               alt="image-gallery-1"
             />
             <img
-              src="../src/images/product-xx99-mark-two-headphones/image-gallery-2.jpg"
+              src="../../../images/product-xx99-mark-two-headphones/image-gallery-2.jpg"
               alt="image-gallery-2"
             />
           </div>
           <img
-            src="../src/images/product-xx99-mark-two-headphones/image-gallery-3.jpg"
+            src="../../../images/product-xx99-mark-two-headphones/image-gallery-3.jpg"
             alt="image-gallery-3"
             className="right-img"
           />
@@ -134,7 +134,7 @@ function Firstitem() {
 
           <div className="item">
             <img
-              src="../src/images/shared/image-xx99-mark-one-headphones.jpg"
+              src="../../../images/shared/image-xx99-mark-one-headphones.jpg"
               alt="image-xx99-mark-one-headphones"
             />
             <h3 className="item-name">XX99 Mark I</h3>
@@ -144,7 +144,7 @@ function Firstitem() {
           </div>
           <div className="item">
             <img
-              src="../src/images/shared/image-xx59-headphones.jpg"
+              src="../../../images/shared/image-xx59-headphones.jpg"
               alt="image-xx59-headphones"
             />
             <h3 className="item-name">XX59</h3>
@@ -154,7 +154,7 @@ function Firstitem() {
           </div>
           <div className="item">
             <img
-              src="../src/images/shared/image-zx9-speaker.jpg"
+              src="../../../images/shared/image-zx9-speaker.jpg"
               alt="image-zx9-speaker"
             />
             <h3 className="item-name">ZX9 Speaker</h3>
