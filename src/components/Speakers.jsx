@@ -8,7 +8,7 @@ function Speakers() {
       <section className="collection">
         <div className="item">
           <img
-            src="../..//images/category-speakers/image-zx9.jpg"
+            src="../assets/images/category-speakers/image-zx9.jpg"
             alt="image-zx9"
           />
           <div className="context">

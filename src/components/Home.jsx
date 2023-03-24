@@ -25,7 +25,7 @@ function Home() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="../../images/shared/image-headphones.png"
+            src="../assets/shared/image-headphones.png"
             alt="image-headphones"
             className="choice-img"
           />
@@ -33,14 +33,14 @@ function Home() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="../..//images/shared/icon-arrow-right.svg"
+              src="../src/assets/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="../..//images/shared/image-speakers.png"
+            src="/Audiophile/assets/shared/image-speakers.png"
             alt="image-speakers"
             className="choice-img"
           />
@@ -48,7 +48,7 @@ function Home() {
           <h4 className="choice-btn">
             SHOP
             <img
-              src="../..//images/shared/icon-arrow-right.svg"
+              src="../src/assets/shared/icon-arrow-right.svg"
               alt="icon-arrow-right"
             />
           </h4>

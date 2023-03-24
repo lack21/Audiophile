@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
-import iconClose from "../../images/shared/icon-close.svg";
-import iconBars from "../../images/shared/icon-hamburger.svg";
+import iconClose from "../assets/shared/icon-close.svg";
+import iconBars from "../assets/shared/icon-hamburger.svg";
 import { useState } from "react";
 
 export let cartContent = [];
