@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import headphonesImage from "../assets/shared/image-headphones.png";
+import speakersImage from "../assets/shared/image-speakers.png";
+import earphonesImage from "../assets/shared/image-earphones.png";
+import rightArrowIcon from "../assets/shared/icon-arrow-right.svg";
+import earphoneImage1 from "../assets/category-earphones/image-yx1-earphones.jpg";
 
 function Earphones() {
   return (
@@ -7,10 +12,7 @@ function Earphones() {
 
       <section className="collection">
         <div className="item">
-          <img
-            src="../..//images/category-earphones/image-yx1-earphones.jpg"
-            alt="image-yx1-earphones"
-          />
+          <img src={earphoneImage1} alt="image-yx1-earphones" />
           <div className="context">
             <h3 className="new">New Product</h3>
             <h2 className="heading">
@@ -34,47 +36,38 @@ function Earphones() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="../..//images/shared/image-headphones.png"
+            src={headphonesImage}
             alt="image-headphones"
             className="choice-img"
           />
           <h3 className="choice-name">HEADPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="../..//images/shared/image-speakers.png"
+            src={speakersImage}
             alt="image-speakers"
             className="choice-img"
           />
           <h3 className="choice-name">SPEAKERS</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="../..//images/shared/image-earphones.png"
+            src={earphonesImage}
             alt="image-earphones"
             className="choice-img"
           />
           <h3 className="choice-name">EARPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
       </section>

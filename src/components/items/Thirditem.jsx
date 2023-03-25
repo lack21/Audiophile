@@ -1,6 +1,17 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { cartContent } from "../Navbar";
+import headphonesImage from "../../assets/shared/image-headphones.png";
+import speakersImage from "../../assets/shared/image-speakers.png";
+import earphonesImage from "../../assets/shared/image-earphones.png";
+import rightArrowIcon from "../../assets/shared/icon-arrow-right.svg";
+import itemImage from "../../assets/shared/image-xx59-headphones.jpg";
+import galleryImage1 from "../../assets/product-xx59-headphones/image-gallery-1.jpg";
+import galleryImage2 from "../../assets/product-xx59-headphones/image-gallery-2.jpg";
+import galleryImage3 from "../../assets/product-xx59-headphones/image-gallery-3.jpg";
+import alsoImage1 from "../../assets/shared/image-xx99-mark-two-headphones.jpg";
+import alsoImage2 from "../../assets/shared/image-xx99-mark-one-headphones.jpg";
+import alsoImage3 from "../../assets/shared/image-zx9-speaker.jpg";
 
 function Thirditem() {
   const [itemCount, setItemCount] = useState(1);
@@ -33,10 +44,7 @@ function Thirditem() {
     <>
       <section className="collection">
         <div className="item">
-          <img
-            src="../../../images/shared/image-xx59-headphones.jpg"
-            alt="image-xx99-mark-two-headphones"
-          />
+          <img src={itemImage} alt="image-xx99-mark-two-headphones" />
           <div className="context">
             <h2 className="heading">
               XX59
@@ -108,17 +116,11 @@ function Thirditem() {
 
         <div className="gallery">
           <div className="left-side">
-            <img
-              src="../../../images/product-xx59-headphones/image-gallery-1.jpg"
-              alt="image-gallery-1"
-            />
-            <img
-              src="../../../images/product-xx59-headphones/image-gallery-2.jpg"
-              alt="image-gallery-2"
-            />
+            <img src={galleryImage1} alt="image-gallery-1" />
+            <img src={galleryImage2} alt="image-gallery-2" />
           </div>
           <img
-            src="../../../images/product-xx59-headphones/image-gallery-3.jpg"
+            src={galleryImage3}
             alt="image-gallery-3"
             className="right-img"
           />
@@ -128,30 +130,21 @@ function Thirditem() {
           <h2 className="heading">You may also like</h2>
 
           <div className="item">
-            <img
-              src="../../../images/shared/image-xx99-mark-two-headphones.jpg"
-              alt="image-xx99-mark-two-headphones"
-            />
+            <img src={alsoImage1} alt="image-xx99-mark-two-headphones" />
             <h3 className="item-name">XX99 Mark II</h3>
             <Link to="/Audiophile/firstitem" className="btn">
               See Product
             </Link>
           </div>
           <div className="item">
-            <img
-              src="../../../images/shared/image-xx99-mark-one-headphones.jpg"
-              alt="image-xx99-mark-one-headphones"
-            />
+            <img src={alsoImage2} alt="image-xx99-mark-one-headphones" />
             <h3 className="item-name">XX99 Mark I</h3>
             <Link to="/Audiophile/seconditem" className="btn">
               See Product
             </Link>
           </div>
           <div className="item">
-            <img
-              src="../../../images/shared/image-zx9-speaker.jpg"
-              alt="image-zx9-speaker"
-            />
+            <img src={alsoImage3} alt="image-zx9-speaker" />
             <h3 className="item-name">ZX9 Speaker</h3>
             <Link to="/Audiophile/fourthitem" className="btn">
               See Product
@@ -163,47 +156,38 @@ function Thirditem() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="src/images/shared/image-headphones.png"
+            src={headphonesImage}
             alt="image-headphones"
             className="choice-img"
           />
           <h3 className="choice-name">HEADPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="src/images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="src/images/shared/image-speakers.png"
+            src={speakersImage}
             alt="image-speakers"
             className="choice-img"
           />
           <h3 className="choice-name">SPEAKERS</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="src/images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="src/images/shared/image-earphones.png"
+            src={earphonesImage}
             alt="image-earphones"
             className="choice-img"
           />
           <h3 className="choice-name">EARPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="src/images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
       </section>

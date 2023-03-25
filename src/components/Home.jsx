@@ -1,4 +1,9 @@
 import { Link } from "react-router-dom";
+import headphonesImage from "../assets/shared/image-headphones.png";
+import speakersImage from "../assets/shared/image-speakers.png";
+import earphonesImage from "../assets/shared/image-earphones.png";
+import rightArrowIcon from "../assets/shared/icon-arrow-right.svg";
+import bannerImage from "../assets/home/image-speaker-zx9.png";
 
 function Home() {
   return (
@@ -25,58 +30,45 @@ function Home() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="../assets/shared/image-headphones.png"
+            src={headphonesImage}
             alt="image-headphones"
             className="choice-img"
           />
           <h3 className="choice-name">HEADPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../src/assets/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="/Audiophile/assets/shared/image-speakers.png"
+            src={speakersImage}
             alt="image-speakers"
             className="choice-img"
           />
           <h3 className="choice-name">SPEAKERS</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../src/assets/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="../..//images/shared/image-earphones.png"
+            src={earphonesImage}
             alt="image-earphones"
             className="choice-img"
           />
           <h3 className="choice-name">EARPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
       </section>
 
       <section className="banner">
         <div className="top-banner">
-          <img
-            src="../..//images/home/image-speaker-zx9.png"
-            alt="image"
-            className="top-banner-img"
-          />
+          <img src={bannerImage} alt="image" className="top-banner-img" />
           <div className="top-banner-content">
             <h2 className="heading">
               ZX9

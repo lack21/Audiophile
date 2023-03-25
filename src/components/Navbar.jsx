@@ -1,7 +1,13 @@
 import { Outlet, Link } from "react-router-dom";
+import { useState } from "react";
 import iconClose from "../assets/shared/icon-close.svg";
 import iconBars from "../assets/shared/icon-hamburger.svg";
-import { useState } from "react";
+import logoIcon from "../assets/shared/logo.svg";
+import cartIcon from "../assets/shared/icon-cart.svg";
+import gearImage from "../assets/shared/image-best-gear.jpg";
+import facebookIcon from "../assets/shared/icon-facebook.svg";
+import twitterIcon from "../assets/shared/icon-twitter.svg";
+import instagramIcon from "../assets/shared/icon-instagram.svg";
 
 export let cartContent = [];
 
@@ -37,7 +43,7 @@ function Navbar() {
           onClick={ToggleLinks}
         />
 
-        <img src="../../images/shared/logo.svg" alt="logo" className="logo" />
+        <img src={logoIcon} alt="logo" className="logo" />
 
         <ul className={`links ${isLinksActive ? "active" : ""}`}>
           <li>
@@ -63,7 +69,7 @@ function Navbar() {
         </ul>
 
         <img
-          src="../../images/shared/icon-cart.svg"
+          src={cartIcon}
           alt="icon-cart"
           className="cart"
           onClick={ToggleCart}
@@ -120,14 +126,11 @@ function Navbar() {
               audio equipment.
             </p>
           </div>
-          <img
-            src="../..//images/shared/image-best-gear.jpg"
-            alt="image-best-gear"
-          />
+          <img src={gearImage} alt="image-best-gear" />
         </div>
         <div className="bottom-footer">
           <div className="left-side">
-            <img src="../..//images/shared/logo.svg" alt="logo" />
+            <img src={logoIcon} alt="logo" />
             <p className="text">
               Audiophile is an all in one stop to fulfill your audio needs.
               We're a small team of music lovers and sound specialists who are
@@ -152,18 +155,9 @@ function Navbar() {
               </Link>
             </div>
             <div className="social-icons">
-              <img
-                src="../..//images/shared/icon-facebook.svg"
-                alt="icon-facebook"
-              />
-              <img
-                src="../..//images/shared/icon-twitter.svg"
-                alt="icon-twitter"
-              />
-              <img
-                src="../..//images/shared/icon-instagram.svg"
-                alt="icon-instagram"
-              />
+              <img src={facebookIcon} alt="icon-facebook" />
+              <img src={twitterIcon} alt="icon-twitter" />
+              <img src={instagramIcon} alt="icon-instagram" />
             </div>
           </div>
         </div>

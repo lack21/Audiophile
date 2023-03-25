@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom";
+import headphonesImage from "../assets/shared/image-headphones.png";
+import speakersImage from "../assets/shared/image-speakers.png";
+import earphonesImage from "../assets/shared/image-earphones.png";
+import rightArrowIcon from "../assets/shared/icon-arrow-right.svg";
+import headphoneImage1 from "../assets/shared/image-xx99-mark-two-headphones.jpg";
+import headphoneImage2 from "../assets/shared/image-xx99-mark-one-headphones.jpg";
+import headphoneImage3 from "../assets/shared/image-xx59-headphones.jpg";
 
 function Headphones() {
   return (
@@ -7,10 +14,7 @@ function Headphones() {
 
       <section className="collection">
         <div className="item">
-          <img
-            src="../..//images/shared/image-xx99-mark-two-headphones.jpg"
-            alt="image-xx99-mark-two-headphones"
-          />
+          <img src={headphoneImage1} alt="image-xx99-mark-two-headphones" />
           <div className="context">
             <h3 className="new">New Product</h3>
             <h2 className="heading">
@@ -29,10 +33,7 @@ function Headphones() {
           </div>
         </div>
         <div className="item">
-          <img
-            src="../..//images/shared/image-xx99-mark-one-headphones.jpg"
-            alt="image-xx99-mark-one-headphones"
-          />
+          <img src={headphoneImage2} alt="image-xx99-mark-one-headphones" />
           <div className="context">
             <h2 className="heading">
               XX99 Mark I<br />
@@ -50,10 +51,7 @@ function Headphones() {
           </div>
         </div>
         <div className="item">
-          <img
-            src="../..//images/shared/image-xx59-headphones.jpg"
-            alt="image-xx59-headphones"
-          />
+          <img src={headphoneImage3} alt="image-xx59-headphones" />
           <div className="context">
             <h2 className="heading">
               XX59
@@ -75,47 +73,38 @@ function Headphones() {
       <section className="choices">
         <Link to="/Audiophile/headphones" className="choice">
           <img
-            src="../..//images/shared/image-headphones.png"
+            src={headphonesImage}
             alt="image-headphones"
             className="choice-img"
           />
           <h3 className="choice-name">HEADPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/speakers" className="choice">
           <img
-            src="../..//images/shared/image-speakers.png"
+            src={speakersImage}
             alt="image-speakers"
             className="choice-img"
           />
           <h3 className="choice-name">SPEAKERS</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
         <Link to="/Audiophile/earphones" className="choice">
           <img
-            src="../..//images/shared/image-earphones.png"
+            src={earphonesImage}
             alt="image-earphones"
             className="choice-img"
           />
           <h3 className="choice-name">EARPHONES</h3>
           <h4 className="choice-btn">
             SHOP
-            <img
-              src="../..//images/shared/icon-arrow-right.svg"
-              alt="icon-arrow-right"
-            />
+            <img src={rightArrowIcon} alt="icon-arrow-right" />
           </h4>
         </Link>
       </section>

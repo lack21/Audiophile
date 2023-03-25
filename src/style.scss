@@ -217,7 +217,7 @@ body {
   display: grid;
   place-content: center left;
   min-height: 90vh;
-  background-image: url(images/home/image-hero.jpg);
+  background-image: url(assets/home/image-hero.jpg);
   background-size: cover;
   background-position: center;
   padding: 2rem 10%;
@@ -545,7 +545,7 @@ body {
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
-    background: url(images/home/pattern-circles.svg), $accent;
+    background: url(assets/home/pattern-circles.svg), $accent;
     background-repeat: no-repeat;
     background-position: -50%;
     overflow: hidden;
@@ -589,7 +589,7 @@ body {
     -moz-border-radius: 0.5rem;
     -ms-border-radius: 0.5rem;
     -o-border-radius: 0.5rem;
-    background-image: url(images/home/image-speaker-zx7.jpg);
+    background-image: url(assets/home/image-speaker-zx7.jpg);
     background-size: cover;
     background-position: center;
     height: 325px;
@@ -619,7 +619,7 @@ body {
       -moz-border-radius: 0.5rem;
       -ms-border-radius: 0.5rem;
       -o-border-radius: 0.5rem;
-      background-image: url(images/home/image-earphones-yx1.jpg);
+      background-image: url(assets/home/image-earphones-yx1.jpg);
       background-size: cover;
       background-position: center;
       flex-basis: 100%;
@@ -816,7 +816,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .header {
-    background-image: url(images/home/image-hero-tablet.jpg);
+    background-image: url(assets/home/image-hero-tablet.jpg);
     background-size: contain;
     place-content: center !important;
     background-color: $black;
@@ -928,9 +928,9 @@ body {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .header {
-    background-image: url(images/home/image-hero-mobile.jpg);
+    background-image: url(assets/home/image-hero-mobile.jpg);
 
     .title {
       font-size: 2.5rem !important;
