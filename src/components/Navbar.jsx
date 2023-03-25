@@ -8,6 +8,7 @@ import gearImage from "../assets/shared/image-best-gear.jpg";
 import facebookIcon from "../assets/shared/icon-facebook.svg";
 import twitterIcon from "../assets/shared/icon-twitter.svg";
 import instagramIcon from "../assets/shared/icon-instagram.svg";
+import "../assets/shared/image-xx99-mark-two-headphones.jpg";
 
 export let cartContent = [];
 
