@@ -15,12 +15,7 @@ import alsoImage3 from "../../assets/shared/image-zx9-speaker.jpg";
 
 function Sixthitem() {
   const [itemCount, setItemCount] = useState(1);
-  const items = [
-    "YX1 Wireless Earphones",
-    "$ 2,999",
-    "../src/images/product-yx1-earphones/image-product.jpg",
-    itemCount,
-  ];
+  const items = ["YX1 Wireless Earphones", "$ 2,999", itemImage, itemCount];
 
   function IncrementItem() {
     if (itemCount == 99) {

@@ -15,12 +15,7 @@ import alsoImage3 from "../../assets/shared/image-zx9-speaker.jpg";
 
 function Firstitem() {
   const [itemCount, setItemCount] = useState(1);
-  const items = [
-    "XX99 Mark II",
-    "$ 2,999",
-    "../src/images/shared/image-xx99-mark-two-headphones.jpg",
-    itemCount,
-  ];
+  const items = ["XX99 Mark II", "$ 2,999", itemImage, itemCount];
 
   function IncrementItem() {
     if (itemCount == 99) {
